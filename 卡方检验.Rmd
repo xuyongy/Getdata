@@ -1,0 +1,44 @@
+---
+title: "鍗℃柟妫€楠<8c>"
+author: "鐢熺墿鍖诲缁熻宸ヤ綔瀹<a4>"
+date: "2019骞<b4>4鏈<88>16鏃<a5>"
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 卡方检验
+
+创建一个2列的二维表 Table 1
+
+```{r}
+matrix(c(15,23,24,12,12,21),nc=2)->Table1
+Table1
+```
+
+计算校正的卡方值
+
+```{r}
+chisq.test(Table1,correct=TRUE) 
+```
+
+## Fisher确切概率
+
+创建二维表 Table 2
+
+```{r}
+matrix(c(22,10,32,1),nc=2)->Table2
+Table2
+```
+
+计算校正的卡方值
+
+```{r}
+fisher.test(Table2) 
+```
+
+
