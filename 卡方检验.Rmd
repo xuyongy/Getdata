@@ -1,7 +1,7 @@
 ---
-title: "鍗℃柟妫€楠<8c>"
-author: "鐢熺墿鍖诲缁熻宸ヤ綔瀹<a4>"
-date: "2019骞<b4>4鏈<88>16鏃<a5>"
+title: "卡方检验"
+author: "生物医学统计工作室"
+date: "2019-09-29"
 output:
   word_document: default
   html_document: default
